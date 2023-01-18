@@ -1,11 +1,9 @@
-import './App.css';
-
 const App = () => {
   return (
-    <div className="App">
-
+    <div>
+        App
     </div>
   );
 }
 
-export default App;
+export {App};
