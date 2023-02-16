@@ -1,0 +1,14 @@
+.homeButton {
+    background: cornflowerblue;
+    border: black 1px solid;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.imageError {
+    display: block;
+    width: 100%;
+}
