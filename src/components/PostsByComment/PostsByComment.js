@@ -11,7 +11,7 @@ const PostsByComment = () => {
 
     useEffect(() => {
         postsService.getPostById(postId).then(({data}) => setPostsByComment([data]))
-    }, [])
+    }, [postId])
 
     return (
         <div>

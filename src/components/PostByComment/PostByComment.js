@@ -14,7 +14,7 @@ const PostByComment = ({post}) => {
             <div>id: {id}</div>
             <div>title: {title}</div>
             <div>body: {body}</div>
-            <button onClick={() => backToComments('/comments')}>Back to Comments</button>
+            <button onClick={() => backToComments('/comments')}>Hide this Post</button>
         </div>
     );
 };

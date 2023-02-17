@@ -14,10 +14,11 @@ const App = () => {
                     <Route path={'todos'} element={<TodosPage/>}/>
                     <Route path={'albums'} element={<AlbumsPage/>}/>
                     <Route path={'comments'} element={<CommentsPage/>}>
+                        <Route path={':postId/'} element={<PostByCommentPage/>}/>
                     </Route>
-                    <Route path={'comments/:postId'} element={<PostByCommentPage/>}/>
+
+                    <Route path={'*'} element={<NotFoundPage/>}/>
                 </Route>
-                <Route path={'*'} element={<NotFoundPage/>}/>
             </Routes>
         </div>
     );
