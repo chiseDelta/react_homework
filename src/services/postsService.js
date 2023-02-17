@@ -4,8 +4,7 @@ import {urls} from "../configs";
 
 
 const postsService = {
-    getAll: () => axiosService.get(urls.posts),
-    getById: (postId) => axiosService.get(`${urls.posts}/${postId}`)
+    getPostById: (id) => axiosService.get(urls.postById(id))
 }
 
 export {

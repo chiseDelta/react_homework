@@ -13,6 +13,10 @@
     font-family: "JetBrains Mono", serif;
 }
 
+.Header a:hover {
+    color: #0053a4;
+}
+
 .Header a[class='active'] {
     color: #0053a4;
 }

@@ -12,6 +12,9 @@ export * from './Header/Header.module.css';
 export * from './NotFound/NotFound';
 export * from './NotFound/NotFound.module.css';
 
+export * from './PostByComment/PostByComment';
+export * from './PostsByComment/PostsByComment';
+
 export * from './Todo/Todo';
 export * from './Todo/Todo.module.css';
 export * from './Todos/Todos';

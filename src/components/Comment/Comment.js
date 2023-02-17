@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 import css from './Comment.module.css'
 
 
@@ -11,7 +13,9 @@ const Comment = ({comment}) => {
             <div>name: {name}</div>
             <div>email: {email}</div>
             <div>body: {body}</div>
-            <button>Show Post</button>
+            <Link to={postId.toString()}>
+                <button>Show Post</button>
+            </Link>
         </div>
     );
 };
