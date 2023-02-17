@@ -3,8 +3,7 @@ const baseURL = 'https://jsonplaceholder.typicode.com'
 const urls = {
     todos: '/todos',
     albums: '/albums',
-    comments: '/comments',
-    posts: '/posts'
+    comments: '/comments'
 }
 
 export {

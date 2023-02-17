@@ -11,7 +11,7 @@ const Comment = ({comment}) => {
             <div>name: {name}</div>
             <div>email: {email}</div>
             <div>body: {body}</div>
-            <button>sho</button>
+            <button>Show Post</button>
         </div>
     );
 };

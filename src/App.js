@@ -7,7 +7,7 @@ import {HomePage, TodosPage, NotFoundPage, AlbumsPage, CommentsPage} from "./pag
 const App = () => {
 
     return (
-        <div style={{fontSize: 20, background:"#bee5ff"}}>
+        <div style={{fontSize: 20, background: "#bee5ff"}}>
             <Routes>
                 <Route path={'/'} element={<MainLayout/>}>
                     <Route index element={<HomePage/>}/>
