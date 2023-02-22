@@ -1,5 +1,5 @@
-export * from './Comments/Comment';
-export * from './Comments/Comments';
+export * from './Cats/Cats';
+export * from './Cats/Cat';
 
-export * from './Posts/Post';
-export * from './Posts/Posts';
+export * from './Dogs/Dogs';
+export * from './Dogs/Dog';

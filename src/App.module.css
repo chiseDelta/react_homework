@@ -1,9 +1,35 @@
 .App {
     font-size: 18px;
     font-family: "JetBrains Mono Light", serif;
+    display: flex;
+    justify-content: space-around;
+    /*text-align: center;*/
 }
 
 h1 {
     margin-bottom: 20px;
-    margin-left: 40px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    background: snow;
+    border: black 1px solid;
+    margin-bottom: 10px;
+}
+
+input:hover {
+    background: #efeded;
+}
+
+button {
+    height: 24px;
+    margin-left: 2px;
+    background: snow;
+    border: black 1px solid;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: #efeded;
 }
