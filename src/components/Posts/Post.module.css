@@ -1,0 +1,11 @@
+.postText {
+    font-size: 18px;
+    font-family: "JetBrains Mono Light", serif;
+    margin: 30px 80px 20px 40px;
+}
+
+button {
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+}
